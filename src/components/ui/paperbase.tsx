@@ -62,7 +62,7 @@ theme = {
 export default function Paperbase() {
   const [bairrosFiltrados, setBairrosFiltrados] = React.useState([]);
 
-  const handleBairrosChange = (event: any, value: any) => {
+  const handleBairrosChange = (_: any, value: any) => {
     setBairrosFiltrados(value);
   };
 
