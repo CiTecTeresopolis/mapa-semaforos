@@ -4,7 +4,13 @@ import data from "../utils/data.json";
 import { useEffect, useRef, useState } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-import { Marker, GeoJSON, TileLayer, MapContainer } from "react-leaflet";
+import {
+  Marker,
+  GeoJSON,
+  TileLayer,
+  MapContainer,
+  useMap,
+} from "react-leaflet";
 
 import "leaflet/dist/leaflet.css";
 
@@ -197,8 +203,31 @@ const createIcon = () => {
   });
 };
 
-function Map({ bairrosFiltrados }: any) {
+function Map({ bairrosFiltrados, sinalSelecionado, onSinalSelect }: any) {
   const geoJsonRef = useRef(null);
+
+  // Componente interno para controlar o mapa via hook useMap
+  function MapController({ sinalSelecionado }: any) {
+    const map = useMap();
+
+    useEffect(() => {
+      if (sinalSelecionado && map) {
+        const lat = sinalSelecionado.latitude ?? sinalSelecionado.lat;
+        const lng = sinalSelecionado.longitude ?? sinalSelecionado.lng;
+        if (typeof lat === "number" && typeof lng === "number") {
+          // Se for passado um zoom no sinal, usa ele; caso contrário usa 17 como padrão
+          const targetZoom =
+            typeof sinalSelecionado.zoom === "number"
+              ? sinalSelecionado.zoom
+              : 17;
+          // Usa flyTo para animação suave até o ponto com o zoom desejado
+          map.flyTo([lat, lng], targetZoom, { animate: true });
+        }
+      }
+    }, [sinalSelecionado, map]);
+
+    return null;
+  }
   const [unidadeSelecionada, setUnidadeSelecionada] = useState<any>(null);
   const [unidadesVisiveis, setUnidadesVisiveis] = useState<any>(data.semaforos);
 
@@ -212,8 +241,6 @@ function Map({ bairrosFiltrados }: any) {
       setUnidadeSelecionada(null);
       setUnidadesVisiveis(filtrado);
     };
-
-    console.log("Bairros filtrados:", unidadesVisiveis);
 
     filtrarUnidades();
   }, [bairrosFiltrados]);
@@ -297,13 +324,19 @@ function Map({ bairrosFiltrados }: any) {
               position={[unidade.latitude, unidade.longitude]}
               eventHandlers={{
                 click: () => {
+                  // Atualiza tanto o estado local quanto notifica o componente pai
                   setUnidadeSelecionada(unidade);
+                  if (onSinalSelect) {
+                    onSinalSelect(unidade);
+                  }
                 },
               }}
             ></Marker>
           ))}
 
         <GeoJSON ref={geoJsonRef} data={geojsonData} style={defaultStyle} />
+        {/* Controller para centralizar o mapa quando o sinalSelecionado mudar */}
+        <MapController sinalSelecionado={sinalSelecionado} />
       </MapContainer>
       {unidadeSelecionada && <CardInfo />}
     </div>

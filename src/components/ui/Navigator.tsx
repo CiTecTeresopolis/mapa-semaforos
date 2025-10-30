@@ -17,7 +17,13 @@ const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 export default function Navigator(props: any) {
-  const { handleBairrosChange, bairrosFiltrados = [], ...other } = props;
+  const {
+    sinalSelecionado,
+    handleBairrosChange,
+    handleItemChange,
+    bairrosFiltrados = [],
+    ...other
+  } = props;
   const [unidadesVisiveis, setUnidadesVisiveis] = useState<any>(data.semaforos);
   const allBairros = [
     ...new Set(data.semaforos.flatMap((item) => item.bairro)),
@@ -70,7 +76,15 @@ export default function Navigator(props: any) {
         {unidadesVisiveis.map((unidade: any) => (
           <Card
             variant="outlined"
-            sx={{ mt: 2, p: 2, backgroundColor: "#588157" }}
+            onClick={() => handleItemChange(null, unidade)}
+            sx={{
+              mt: 2,
+              p: 2,
+              backgroundColor:
+                unidade === sinalSelecionado ? "#344e41" : "#588157",
+              borderColor:
+                unidade === sinalSelecionado ? "#a3b18a" : "transparent",
+            }}
           >
             <Typography variant="body2" color="white" align="left">
               Nº {unidade.numero} - {unidade.pontoA}

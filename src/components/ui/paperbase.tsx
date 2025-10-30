@@ -61,9 +61,14 @@ theme = {
 
 export default function Paperbase() {
   const [bairrosFiltrados, setBairrosFiltrados] = React.useState([]);
+  const [sinalSelecionado, setSinalSelecionado] = React.useState(null);
 
   const handleBairrosChange = (_: any, value: any) => {
     setBairrosFiltrados(value);
+  };
+
+  const handleItemChange = (_: any, value: any) => {
+    setSinalSelecionado(value);
   };
 
   return (
@@ -79,6 +84,8 @@ export default function Paperbase() {
             sx={{ display: { sm: "block", xs: "none" } }}
             bairrosFiltrados={bairrosFiltrados}
             handleBairrosChange={handleBairrosChange}
+            handleItemChange={handleItemChange}
+            sinalSelecionado={sinalSelecionado}
           />
         </Box>
         <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
@@ -96,7 +103,11 @@ export default function Paperbase() {
             >
               SEMÁFOROS - MUNICÍPIO DE TERESÓPOLIS
             </Box>
-            <Map bairrosFiltrados={bairrosFiltrados} />
+            <Map
+              bairrosFiltrados={bairrosFiltrados}
+              sinalSelecionado={sinalSelecionado}
+              onSinalSelect={setSinalSelecionado}
+            />
           </Box>
         </Box>
       </Box>
