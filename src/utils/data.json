@@ -278,6 +278,15 @@
       "latitude": -22.405255,
       "longitude": -42.963558,
       "bairro": "Várzea"
+    },
+     {
+      "numero": 31,
+      "pontoA": "Rua Judite Maurício de Paula",
+      "pontoB": "Av. Alberto Torres",
+      "geolocalizacao": "https://maps.app.goo.gl/3vo84sJWWYtsnUC1A",
+      "latitude": -22.425590,
+      "longitude": -42.979575,
+      "bairro": "Iucas"
     }
   ]
 }
