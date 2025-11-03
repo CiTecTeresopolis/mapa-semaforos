@@ -273,7 +273,7 @@ function Map({ bairrosFiltrados, sinalSelecionado, onSinalSelect }: any) {
               {unidadeSelecionada.numero}
             </Avatar>
           }
-          title={`Semáforo nº ${unidadeSelecionada?.numero}`}
+          title={`Conjunto nº ${unidadeSelecionada?.numero}`}
         />
         <CardContent>
           <Typography variant="body1" sx={{ color: "text.secondary" }}>

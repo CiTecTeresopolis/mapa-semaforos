@@ -67,9 +67,9 @@
       "numero": 8,
       "pontoA": "Av. Alberto Torres",
       "pontoB": "Av. Alberto Torres",
-      "geolocalizacao": "https://maps.app.goo.gl/WZ2F6XQBaDfSgwpJ8",
+      "geolocalizacao": "https://maps.app.goo.gl/J7eiYif6Rbh2tNmW6",
       "latitude": -22.425625,
-      "longitude": -42.979509,
+      "longitude": -42.979430,
       "bairro": "Alto"
     },
     {
@@ -96,7 +96,7 @@
       "pontoB": "Av. Feliciano Sodré",
       "geolocalizacao": "https://maps.app.goo.gl/WpqgeoL7kcVdYVqN9",
       "latitude": -22.417956,
-      "longitude": -42.973373,
+      "longitude": -42.973273,
       "bairro": "Várzea"
     },
     {
@@ -130,7 +130,7 @@
       "numero": 15,
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Av. Lúcio Meira",
-      "geolocalizacao": "https://maps.app.goo.gl/2iHo1urDCHANAPp56",
+      "geolocalizacao": "https://maps.app.goo.gl/24aMgXHkBsj7eR8A6",
       "latitude": -22.413296,
       "longitude": -42.969855,
       "bairro": "Várzea"
@@ -140,8 +140,8 @@
       "pontoA": "Rua Delcio Monteiro",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/2ZNKCCBwGHdH5L1u8",
-      "latitude": -22.413294,
-      "longitude": -42.969783,
+      "latitude": -22.413384,
+      "longitude": -42.969693,
       "bairro": "Várzea"
     },
     {
@@ -158,7 +158,7 @@
       "pontoA": "Av. Lúcio Meira",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/77CKKdKV945uX2zD8",
-      "latitude": -22.410566,
+      "latitude": -22.410666,
       "longitude": -42.967906,
       "bairro": "Várzea"
     },
@@ -167,8 +167,8 @@
       "pontoA": "Rua Francisco Sá",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/HsKBoHVgjKARxALa8",
-      "latitude": -22.410514,
-      "longitude": -42.967995,
+      "latitude": -22.410644,
+      "longitude": -42.9680500,
       "bairro": "Várzea"
     },
     {
@@ -194,7 +194,7 @@
       "pontoA": "Av. Lúcio Meira",
       "pontoB": "Rua Manoel José Lebrão",
       "geolocalizacao": "https://maps.app.goo.gl/jU1vsgW6A2Xb7ECP7",
-      "latitude": -22.405181,
+      "latitude": -22.405341,
       "longitude": -42.963950,
       "bairro": "Várzea"
     },
@@ -212,7 +212,7 @@
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/X1jK5dzpKtCYvbg88",
-      "latitude": -22.420146,
+      "latitude": -22.420246,
       "longitude": -42.965316,
       "bairro": "Várzea"
     },
@@ -221,7 +221,7 @@
       "pontoA": "Rua Fileuterpe",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/ikbvNXuSrqeUsSpu8",
-      "latitude": -22.420172,
+      "latitude": -22.420472,
       "longitude": -42.965297,
       "bairro": "Várzea"
     },
@@ -229,18 +229,18 @@
       "numero": 26,
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Rua Ten. Luiz Meirelles",
-      "geolocalizacao": "https://maps.app.goo.gl/ikbvNXuSrqeUsSpu8",
-      "latitude": -22.420172,
-      "longitude": -42.965297,
-      "bairro": "Várzea"
+      "geolocalizacao": "https://maps.app.goo.gl/k3upL9RAZAxEbo6t9",
+      "latitude": -22.4251324,
+      "longitude": -42.9569254,
+      "bairro": "Bom Retiro"
     },
     {
       "numero": 27,
       "pontoA": "Rua Paquequer",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/aonzTjYnG4aFnwk5A",
-      "latitude": -22.425161,
-      "longitude": -42.956967,
+      "latitude": -22.4252271,
+      "longitude": -42.9570742,
       "bairro": "Bom Retiro"
     },
     {
@@ -257,7 +257,7 @@
       "pontoA": "Av. Delfim Moreira",
       "pontoB": "Rua Manoel José Lebrão",
       "geolocalizacao": "https://maps.app.goo.gl/wjeE7HbSmoniB18FA",
-      "latitude": -22.405282,
+      "latitude": -22.405382,
       "longitude": -42.963589,
       "bairro": "Várzea"
     },
@@ -275,12 +275,12 @@
       "pontoA": "Rua Manoel José Lebrão",
       "pontoB": "Rua Manoel José Lebrão",
       "geolocalizacao": "https://maps.app.goo.gl/DjQepAXsf1Qdk3Bs8",
-      "latitude": -22.405255,
-      "longitude": -42.963558,
+      "latitude": -22.405295,
+      "longitude": -42.963458,
       "bairro": "Várzea"
     },
-     {
-      "numero": 31,
+    {
+      "numero": 32,
       "pontoA": "Rua Judite Maurício de Paula",
       "pontoB": "Av. Alberto Torres",
       "geolocalizacao": "https://maps.app.goo.gl/3vo84sJWWYtsnUC1A",
