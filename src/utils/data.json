@@ -50,8 +50,8 @@
       "pontoA": "Av. Alberto Torres",
       "pontoB": "Av. Alberto Torres",
       "geolocalizacao": "https://maps.app.goo.gl/R1XQ27kaXNFQji4j9",
-      "latitude": -22.430044,
-      "longitude": -42.979620,
+      "latitude": -22.430009,
+      "longitude": -42.979656,
       "bairro": "Alto"
     },
     {
@@ -59,12 +59,21 @@
       "pontoA": "Rua Cel. Sivio Lisboa da Cunha",
       "pontoB": "Av. Alberto Torres",
       "geolocalizacao": "https://maps.app.goo.gl/9yd9nK6vNYZzUpPy5",
-      "latitude": -22.430068,
-      "longitude": -42.979698,
+      "latitude": -22.430076,
+      "longitude": -42.979752,
       "bairro": "Alto"
     },
     {
       "numero": 8,
+      "pontoA": "Rua Cel. Sivio Lisboa da Cunha",
+      "pontoB": "Av. Alberto Torres",
+      "geolocalizacao": "https://maps.app.goo.gl/9yd9nK6vNYZzUpPy5",
+      "latitude": -22.429974,
+      "longitude": -42.979513,
+      "bairro": "Alto"
+    },
+    {
+      "numero": 9,
       "pontoA": "Av. Alberto Torres",
       "pontoB": "Av. Alberto Torres",
       "geolocalizacao": "https://maps.app.goo.gl/J7eiYif6Rbh2tNmW6",
@@ -73,7 +82,7 @@
       "bairro": "Alto"
     },
     {
-      "numero": 9,
+      "numero": 10,
       "pontoA": "Av. Alberto Torres",
       "pontoB": "Av. Feliciano Sodré",
       "geolocalizacao": "https://maps.app.goo.gl/v1r6918STCiDcftp7",
@@ -82,7 +91,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 10,
+      "numero": 11,
       "pontoA": "Rua Cel. Antônio Santiago",
       "pontoB": "Av. Feliciano Sodré",
       "geolocalizacao": "https://maps.app.goo.gl/Dpn1YKSxoCq5VU5PA",
@@ -91,7 +100,7 @@
       "bairro": "Agriões"
     },
     {
-      "numero": 11,
+      "numero": 12,
       "pontoA": "Av. Feliciano Sodré",
       "pontoB": "Av. Feliciano Sodré",
       "geolocalizacao": "https://maps.app.goo.gl/WpqgeoL7kcVdYVqN9",
@@ -100,7 +109,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 12,
+      "numero": 13,
       "pontoA": "Rua Rui Barbosa",
       "pontoB": "Av. Feliciano Sodré",
       "geolocalizacao": "https://maps.app.goo.gl/1hpC6dzcCSJU4nGR6",
@@ -109,7 +118,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 13,
+      "numero": 14,
       "pontoA": "Av. Feliciano Sodré",
       "pontoB": "Av. Feliciano Sodré",
       "geolocalizacao": "https://maps.app.goo.gl/8NHciQasQoLi9LhF6",
@@ -118,7 +127,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 14,
+      "numero": 15,
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Av. Feliciano Sodré",
       "geolocalizacao": "https://maps.app.goo.gl/8JCPAbr3L8Jfn3yo9",
@@ -127,7 +136,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 15,
+      "numero": 16,
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/24aMgXHkBsj7eR8A6",
@@ -136,7 +145,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 16,
+      "numero": 17,
       "pontoA": "Rua Delcio Monteiro",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/2ZNKCCBwGHdH5L1u8",
@@ -145,7 +154,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 17,
+      "numero": 18,
       "pontoA": "Av. Lúcio Meira",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/zNaxjPU5EJBdH3YPA",
@@ -154,7 +163,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 18,
+      "numero": 19,
       "pontoA": "Av. Lúcio Meira",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/77CKKdKV945uX2zD8",
@@ -163,7 +172,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 19,
+      "numero": 20,
       "pontoA": "Rua Francisco Sá",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/HsKBoHVgjKARxALa8",
@@ -172,7 +181,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 20,
+      "numero": 21,
       "pontoA": "Av. Lúcio Meira",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/n6boWEWMYyD4gDvy6",
@@ -181,7 +190,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 21,
+      "numero": 22,
       "pontoA": "Av. J.J. de Araújo Regadas",
       "pontoB": "Av. Lúcio Meira",
       "geolocalizacao": "https://maps.app.goo.gl/gpvaVbYPQrYXSgAX7",
@@ -190,7 +199,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 22,
+      "numero": 23,
       "pontoA": "Av. Lúcio Meira",
       "pontoB": "Rua Manoel José Lebrão",
       "geolocalizacao": "https://maps.app.goo.gl/jU1vsgW6A2Xb7ECP7",
@@ -199,7 +208,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 23,
+      "numero": 24,
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/pDQSDiLiRHUosN1v8",
@@ -208,7 +217,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 24,
+      "numero": 25,
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/X1jK5dzpKtCYvbg88",
@@ -217,7 +226,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 25,
+      "numero": 26,
       "pontoA": "Rua Fileuterpe",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/ikbvNXuSrqeUsSpu8",
@@ -226,7 +235,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 26,
+      "numero": 27,
       "pontoA": "Rua Ten. Luiz Meirelles",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/k3upL9RAZAxEbo6t9",
@@ -235,7 +244,7 @@
       "bairro": "Bom Retiro"
     },
     {
-      "numero": 27,
+      "numero": 28,
       "pontoA": "Rua Paquequer",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/aonzTjYnG4aFnwk5A",
@@ -244,7 +253,7 @@
       "bairro": "Bom Retiro"
     },
     {
-      "numero": 28,
+      "numero": 29,
       "pontoA": "Rua Mariana",
       "pontoB": "Rua Ten. Luiz Meirelles",
       "geolocalizacao": "https://maps.app.goo.gl/TB7nXLZpFnbMdkoj9",
@@ -253,7 +262,7 @@
       "bairro": "Bom Retiro"
     },
     {
-      "numero": 29,
+      "numero": 30,
       "pontoA": "Av. Delfim Moreira",
       "pontoB": "Rua Manoel José Lebrão",
       "geolocalizacao": "https://maps.app.goo.gl/wjeE7HbSmoniB18FA",
@@ -262,7 +271,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 30,
+      "numero": 31,
       "pontoA": "Av. Delfim Moreira",
       "pontoB": "Rua Manoel José Lebrão",
       "geolocalizacao": "https://maps.app.goo.gl/8P8UwonHvJuJzUWY6",
@@ -271,7 +280,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 31,
+      "numero": 32,
       "pontoA": "Rua Manoel José Lebrão",
       "pontoB": "Rua Manoel José Lebrão",
       "geolocalizacao": "https://maps.app.goo.gl/DjQepAXsf1Qdk3Bs8",
@@ -280,7 +289,7 @@
       "bairro": "Várzea"
     },
     {
-      "numero": 32,
+      "numero": 33,
       "pontoA": "Rua Judite Maurício de Paula",
       "pontoB": "Av. Alberto Torres",
       "geolocalizacao": "https://maps.app.goo.gl/3vo84sJWWYtsnUC1A",
